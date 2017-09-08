@@ -1,0 +1,96 @@
+/* public */
+body{font-size: 16px;}
+section{width:100%; padding:10px 0;}
+a,a:hover,a:focus{text-decoration:none;transition: .3s;}
+a i{transition: .3s;}
+a i:hover{transform: scale(1.05);}
+.title{line-height: 200px;font-size: 36px;text-align: center;color: #fff}
+.btn{padding: 0;margin-bottom: 30px;border:none;background: none;font-size: 20px;line-height: 50px;}
+.btn a{color: #FFF;text-decoration: none;}
+.btn-default,.btn-default:hover,.btn-default:focus{background:none;}
+/* firstPage */
+#firstPage{height:80px; width:100%; padding:0; background-color:#03c36b;; text-align:center;}
+#firstPage>p {display:none; position:absolute; margin:0 auto; width:100%; color:#FFF; font-size:120px; font-family:"Consolas"; font-weight:900; font-style:italic}
+#fstPage-down{position:absolute; bottom:18px; width:100%;}
+#fstPage-down a{display:block; height:88px; line-height:88px; width:100%; margin:0 auto;}
+#fstPage-down a i {height:60px;font-size: 50px; color: #fff;}
+
+/* nav */
+#nav {position:relative; padding:0; margin:0; top:0; height:55px; width:100%; background-color:#42474b; color:white; z-index: 99999999999;}
+#nav a{padding:0 15px; line-height:55px; cursor:pointer; z-index:1; color:white;}
+#nav a:hover{color:#999;transform: scale(1.05);}
+#logo{display:inline-block;}
+.navbar{border:none;border-radius:0;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {color: #555;background:none;}
+.navbar-default .navbar-toggle {border-color:#888;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border: none;background-color:#42474b}
+
+/* intro */
+#intro {width:100%; background-color:#1284d0; color:#EEEEEE;padding: 60px 0 100px;}
+#intro>div{text-align:center;margin-top:20px;}
+#intro ul li {line-height: 36px;text-align: left;}
+#intro ul li span{display:inline-block;width: 100px;text-align: right}
+.intro-logo a {border-radius: 50%;color: #fff;font-size: 100px;line-height: 200px;}
+.intro-logo a i {display:inline-block;width:85px;height:85px;line-height:85px;border-radius: 50%;overflow: hidden;}
+#intro-center a{display:inline-block;width: 200px;height: 200px;line-height: 200px;background-image: url("../img/logo.png");background-repeat: no-repeat;background-size: 100%;}
+.intro-text{display:inline-block;margin-top:100px;font-size: 16px;}
+.intro-text li{height: 36px;line-height: 36px;}
+.intro-text a{color:#EEEEEE;}
+.intro-text p{line-height: 36px;text-align: left;text-indent:2em;margin:0;}
+.intro-logo-little{display: none;margin-top: 10px;}
+.intro-logo-little a {color: #fff;font-size: 42px;line-height: 80px;}
+.intro-logo-little a i{display:inline-block;width:36px;height:36px;line-height:36px;border-radius: 50%;overflow: hidden;}
+
+/* skill */
+#skill {width:100%; background-color:#9C58B6d6; color:#eee;padding-bottom: 200px;}
+#skill ul {width:100%;list-style: none;text-align: center;font-size: 20px;padding: 0;border: 2px solid #fff;border-radius: 18px 18px 0 0;}
+#skill li{line-height: 40px;transition: .3s;}
+#skill li:hover{transform: scale(1.05);}
+#skill li:first-child{background-color: #fff;color: #000;border-radius: 16px 16px 0 0;}
+#skill li:hover{background-color: #fff;color: #000;}
+
+/* workEXP */
+#workEXP {width:100%; background-color:#ef5858; color:#EEEEEE;padding-bottom:200px;}
+.panel-group{color: #333;line-height: 36px;}
+.tooltip{font-size: 16px;}
+/* prjEXP */
+#prjEXP {width:100%; background-color:#e6a529; color:#EEEEEE;padding-bottom:200px;}
+
+/* wantMore */
+#wantMore {width:100%; padding:0; background-color:#5277ff; text-align:center;}
+#wantMore a{color:#eee;}
+#wantMore a:hover{color:#FFF;}
+#wantMore>p {display:block; position:relative; margin:0 auto; width:100%; color:#FFF; font-size:100px; font-family:"Consolas"; font-weight:900; font-style:italic}
+#wantMore #weChat{display:inline-block;width: 120px;height: 150px;text-align: center;line-height: 150px;}
+@media only screen and (max-width: 992px) {
+    .intro:not(#intro-center){
+        display: none;
+    }
+    .intro-text{margin-top:10px;}
+    .intro-logo-little{
+        display: inline-block;
+    }
+    .display-none{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .display-none{
+        display: inline;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .display-none{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
