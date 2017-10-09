@@ -42,7 +42,7 @@ a i:hover{transform: scale(1.05);}
 .intro-logo-little a i{display:inline-block;width:36px;height:36px;line-height:36px;border-radius: 50%;overflow: hidden;}
 
 /* skill */
-#skill {width:100%; background-color:#9C58B6d6; color:#eee;padding-bottom: 200px;}
+#skill {width:100%; background-color:#9C58B6; color:#eee;padding-bottom: 200px;}
 #skill ul {width:100%;list-style: none;text-align: center;font-size: 20px;padding: 0;border: 2px solid #fff;border-radius: 18px 18px 0 0;}
 #skill li{line-height: 40px;transition: .3s;}
 #skill li:hover{transform: scale(1.05);}
@@ -73,11 +73,15 @@ a i:hover{transform: scale(1.05);}
     .display-none{
         display: none;
     }
+    #firstPage>p {font-size:80px;}
+    #wantMore>p {font-size: 60px;}
 }
 @media only screen and (max-width: 768px) {
     .display-none{
         display: inline;
     }
+    #firstPage>p {font-size:50px;}
+
 }
 @media only screen and (max-width: 640px) {
     .display-none{

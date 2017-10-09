@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>刘德顺-个人简历</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -56,7 +57,7 @@
                 <div class="intro col-md-2 wow bounceInDown" data-wow-delay=".2s"><a href="https://plus.google.com/111583209340330633003" target="_blank"><i class="fa fa-google-plus-square"></i></a></div>
                 <div class="intro col-md-2 wow bounceInDown"><a href="mailto:admin@w3h5.com"><i class="fa fa-envelope-square"></i></a>
                 </div>
-                <div class="intro-logo-little col-sm-12 col-xs-6 col-sm-offset-0 col-xs-offset-3">
+                <div class="intro-logo-little col-sm-12 col-xs-10 col-sm-offset-0 col-xs-offset-1">
                     <div class="col-sm-3 col-xs-3"><a href="https://github.com/ideshun" target="_blank"><i class="fa fa-github"></i></a></div>
                     <div class="col-sm-3 col-xs-3"><a href="https://www.linkedin.com/in/%E5%BE%B7%E9%A1%BA-%E5%88%98-10a487147/" target="_blank"><i class="fa fa-linkedin-square"></i></a></div>
                     <div class="col-sm-3 col-xs-3"><a href="https://plus.google.com/111583209340330633003" target="_blank"><i class="fa fa-google-plus-square"></i></a></div>
@@ -65,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="intro-text col-md-4 col-sm-7 col-xs-6 col-md-offset-0 col-sm-offset-1 col-xs-offset-3 wow bounceInLeft"data-wow-delay=".5s">
+            <div class="intro-text col-md-4 col-sm-7 col-xs-10 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 wow bounceInLeft"data-wow-delay=".5s">
                 <ul>
                     <li><span>姓名</span> | 刘德顺</li>
                     <li><span>现居</span> | 上海-杨浦</li>
@@ -226,41 +227,41 @@
             项目经验
         </div>
         <div class="row wow fadeInUp" data-wow-delay=".2s">
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"
                      title="深圳聚游科技有限公司">
                     <img src="img/juyou.png" height="50" alt=""></div>
             </div>
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"
                      title="tap4fun移动端">
                     <img src="img/tap4fun.png" height="50" alt=""></div>
             </div>
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="德顺网络论坛">
                     <a href="http://mz.52deshun.com" target="_blank"><img src="img/dswllt.png" height="50" alt=""></a>
                 </div>
             </div>
-            <div class="ccol-sm-4 col-md-3 col-xs-6">
+            <div class="ccol-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="德顺博客"><a
                             href="http://www.dblog.cc" target="_blank"><img src="img/dblog.png" height="50" alt="">
                 </div>
                 </a>
             </div>
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"
                      title="w3h5-前端资源网">
                     <a href="http://www.w3h5.com" target="_blank"><img src="img/w3h5.png" height="50" alt=""></a></div>
             </div>
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="爱缩网址缩短">
                     <a href="http://iiso.vip" target="_blank"><img src="img/iiso.png" height="50" alt=""></a></div>
             </div>
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="紫罗兰冲施肥">
                     <a href="http://www.ydlll.cn" target="_blank">紫罗兰冲施肥</a></div>
             </div>
-            <div class="col-sm-4 col-md-3 col-xs-6">
+            <div class="col-sm-4 col-md-3 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                 <div type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom"
                      title="图片二维码生成器">
                     <a href="http://www.w3h5.com/QRCode" target="_blank">图片二维码生成器</a></div>
